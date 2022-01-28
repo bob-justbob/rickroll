@@ -1,0 +1,107 @@
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: gray;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.logo img {
+    object-fit: cover;
+    width: 100%;
+}
+
+nav {
+    width: 90%;
+    height: 100px;
+    margin-left: 10px;
+
+}
+
+ul {
+    display: flex;
+}
+
+li{
+    margin-left: 20px;
+}
+
+section {
+    width: 100%;
+    height: 750px;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, darkgray, lightgray);
+}
+
+.info {
+    width: 500px;
+    height: 500px;
+}
+
+.info h1, p , a {
+    padding: 10px;
+}
+
+.info h1 {
+    font-size: 30px;
+}
+
+a {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover, a:focus {
+    color: blue;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.img {
+    margin-left: 10px;
+    width: 500px;
+    height: 500px;
+}
+
+.img img {
+    object-fit: cover;
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 87px;
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+
+footer div {
+    width: 80px;
+    height: 80px;
+}
+
+footer div img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.iframe {
+    width: 100%;
+    height: 929px;
+    border: 5px solid black;
+}
+
